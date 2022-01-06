@@ -19,6 +19,10 @@ import Footer from '../components/Footer'
 const App = (props) => {
   return (
     <>
+      <Head>
+        <title>RBSX</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Preloader />
       <Navigation />
       <main>
