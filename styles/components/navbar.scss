@@ -1,0 +1,146 @@
+/******************************************
+  Styles
+******************************************/
+.navbar {
+  font-size: $font-size-sm;
+  font-weight: 600;
+  overflow-y: hidden;
+  opacity: 0.95;
+  max-height: 95px;
+  a {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 37px 25px;
+    font-weight: 800;
+    &:hover {
+      &:not(.active) {
+        background: $gray-100;
+      }
+    }
+  }
+  a.active {
+    color: $white;
+    background: $primary;
+  }
+  .navbar-brand {
+    color: $primary !important;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin-right: 0;
+    cursor: pointer;
+    font-weight: 900;
+  }
+
+  .offcanvas-title {
+    font-size: 1.8rem;
+    font-weight: 900;
+  }
+  .offcanvas-body {
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .navbar-nav {
+    .a {
+      padding: 0.715rem 0.715rem 0;
+      margin-right: 0;
+    }
+  }
+  .navbar-toggler-icon {
+    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1.0%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    min-height: 95px;
+    & > .container {
+      justify-content: center !important;
+    }
+    .navbar-brand {
+      font-size: 1.8rem;
+      margin-right: 0px;
+      cursor: pointer;
+    }
+    .navbar-nav {
+      .nav-link {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        a {
+          display: block;
+          padding-right: 0;
+          padding-left: 0;
+        }
+      }
+    }
+
+    .navbar-collapse {
+      position: fixed;
+      width: 80%;
+      top: 0px;
+      right: 0;
+      height: 100%;
+      background-color: $white;
+      padding: 0;
+      transition: right 250ms ease-in-out;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      .nav-item {
+        text-align: center;
+        margin: 20px 0;
+        a.active {
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+        }
+      }
+      .offcanvas-body {
+        height: calc(100vh - 75px);
+      }
+    }
+    .navbar-collapse.collapsing {
+      height: 100%;
+      right: -75%;
+      transition: height 0s ease-in-out;
+    }
+    .navbar-toggler {
+      position: absolute;
+      right: 15px;
+      top: 30px;
+    }
+    .navbar-toggler.collapsed {
+      ~ {
+        .navbar-collapse {
+          transition: right 150ms ease-in;
+        }
+      }
+    }
+    .offcanvas-header {
+      text-transform: uppercase;
+      height: 95px;
+      padding-bottom: 20px;
+      h5 {
+        color: $primary;
+        font-size: 1.25rem;
+        padding-top: 0px;
+        font-size: 1.8rem;
+      }
+      .btn-close {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md {
+    max-height: 95px;
+    .navbar-nav {
+      .nav-link {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+      }
+    }
+  }
+}
