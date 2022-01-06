@@ -3469,6 +3469,7 @@ __metadata:
     react: 17.0.2
     react-bootstrap: ^2.1.0
     react-dom: 17.0.2
+    react-github-corner: ^2.5.0
     react-hook-form: ^7.22.5
     react-icons: ^4.3.1
     react-scroll: ^1.8.4
@@ -4122,6 +4123,15 @@ __metadata:
   peerDependencies:
     react: 17.0.2
   checksum: 1c1eaa3bca7c7228d24b70932e3d7c99e70d1d04e13bb0843bbf321582bc25d7961d6b8a6978a58a598af2af496d1cedcfb1bf65f6b0960a0a8161cb8dab743c
+  languageName: node
+  linkType: hard
+
+"react-github-corner@npm:^2.5.0":
+  version: 2.5.0
+  resolution: "react-github-corner@npm:2.5.0"
+  peerDependencies:
+    react: "*"
+  checksum: cf1bb0f165b638df880f874447999950168d11a78ee2a382007e81c74372eb3453ecf1d4f9d0c7ccc6080315e3c88b2d4062735531311d7d645387ac0a949690
   languageName: node
   linkType: hard
 

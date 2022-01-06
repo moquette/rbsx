@@ -11,7 +11,7 @@ import SectionTwo from '../features/SectionTwo'
 import SectionThree from '../features/SectionThree'
 import ContactForm from '../features/ContactForm'
 import Footer from '../components/Footer'
-//import './app.scss'
+import GithubCorner from 'react-github-corner'
 
 /******************************************
   Component
@@ -26,6 +26,11 @@ const App = (props) => {
       <Preloader />
       <Navigation />
       <main>
+        <GithubCorner
+          className="gh-corner"
+          href="https://github.com/moquette/rbsx"
+          direction="left"
+        />
         <Hero id="home" />
         <SectionOne id="section1" bg="light" />
         <SectionTwo id="section2" />
