@@ -1,6 +1,11 @@
 {
-  "name": "next",
+  "name": "react-init",
+  "version": "1.0.0",
   "private": true,
+  "installConfig": {
+    "pnp": true
+  },
+  "homepage": "http://rbsx.moquette.us",
   "scripts": {
     "dev": "next",
     "build": "next build",
