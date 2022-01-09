@@ -10,6 +10,7 @@ import Services from '../features/Services'
 import CallToAction from '../features/CallToAction'
 import About from '../features/About'
 import Testimonials from '../features/Testimonials'
+import Team from '../features/Team'
 import ContactForm from '../features/ContactForm'
 import Footer from '../components/Footer'
 
@@ -31,9 +32,10 @@ const App = (props) => {
           <Services bg="light" />
           <CallToAction />
         </div>
-        <About id="about" />
-        <Testimonials id="testimonials" bg="light" />
-        <ContactForm id="section5" />
+        <About id="about" bg="light" />
+        <Testimonials id="testimonials" />
+        <Team id="team" bg="light" />
+        <ContactForm id="contact" />
       </main>
       <Footer />
     </>

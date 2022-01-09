@@ -17,7 +17,8 @@ const sections = [
   { id: 'services', title: 'Services' },
   { id: 'about', title: 'About' },
   { id: 'testimonials', title: 'Testimonials' },
-  { id: 'section5', title: 'Contact' },
+  { id: 'team', title: 'Team' },
+  { id: 'contact', title: 'Contact' },
 ]
 
 const NavBar = (props) => {

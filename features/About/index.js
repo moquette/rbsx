@@ -14,7 +14,7 @@ const About = (props) => {
         <Col>
           <h2 className="fs-1 fw-bolder text-uppercase">About</h2>
           <h3>
-            This section contains <span className="text-muted">a sub-heading</span>
+            10 years <span className="text-muted">strong!</span>
           </h3>
           <Row>
             <Col md={8}>

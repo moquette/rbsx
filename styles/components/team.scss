@@ -1,0 +1,25 @@
+/* --------------------------------------------------------------
+# About
+-------------------------------------------------------------- */
+.team {
+  img {
+    max-width: 60%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%) brightness(80%);
+    width: 75%;
+    padding-top: 15px;
+  }
+}
+/* --------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+-------------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+  .team {
+    .shadow-sm {
+      box-shadow: none !important;
+    }
+    .border {
+      border: none !important;
+    }
+  }
+}

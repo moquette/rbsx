@@ -11,6 +11,9 @@ const Services = (props) => {
   return (
     <Section {...props}>
       <h2 className="fs-1 fw-bolder text-uppercase">Services</h2>
+      <h3>
+        Why we&apos;re number <span className="text-muted">ONE!</span>
+      </h3>
       <Row>
         <Col md={4}>
           <h4>Lorem Ipsum</h4>
