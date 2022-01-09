@@ -6,12 +6,12 @@ import Head from 'next/head'
 import Navigation from '../components/Navigation'
 import Preloader from '../components/Preloader'
 import Hero from '../features/Hero'
-import SectionOne from '../features/SectionOne'
-import SectionTwo from '../features/SectionTwo'
-import SectionThree from '../features/SectionThree'
+import Services from '../features/Services'
+import CallToAction from '../features/CallToAction'
+import About from '../features/About'
+import Testimonials from '../features/Testimonials'
 import ContactForm from '../features/ContactForm'
 import Footer from '../components/Footer'
-import GithubCorner from 'react-github-corner'
 
 /******************************************
   Component
@@ -26,15 +26,13 @@ const App = (props) => {
       <Preloader />
       <Navigation />
       <main>
-        <GithubCorner
-          className="gh-corner"
-          href="https://github.com/moquette/rbsx"
-          direction="left"
-        />
         <Hero id="home" />
-        <SectionOne id="section1" bg="light" />
-        <SectionTwo id="section2" />
-        <SectionThree id="section3" bg="light" />
+        <div id="services">
+          <Services bg="light" />
+          <CallToAction />
+        </div>
+        <About id="about" />
+        <Testimonials id="testimonials" bg="light" />
         <ContactForm id="section5" />
       </main>
       <Footer />

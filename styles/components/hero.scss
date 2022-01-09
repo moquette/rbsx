@@ -12,14 +12,17 @@
     font-weight: 700;
   }
 
+  h2 {
+    margin-bottom: 0.5rem;
+    &:after {
+      display: none;
+      height: 0;
+    }
+  }
+
   @media (max-width: 768px) {
     background-attachment: inherit;
     background-size: cover;
     padding: calc(20%) 0 calc(20%);
-
-    section {
-      min-height: calc(100vh - 92px);
-      padding: 3rem 0;
-    }
   }
 }

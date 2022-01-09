@@ -53,10 +53,12 @@ const ContactForm = (props) => {
     <Section {...props}>
       <Row>
         <Col>
-          <h2>{props.heading || 'Contact Us'}</h2>
+          <h2 className="fs-1 fw-bolder text-uppercase">Contact Us</h2>
+          <h3>
+            We&apos;d love to hear from <span className="text-muted">you!</span>
+          </h3>
           <Row>
             <Col>
-              <h4>We'd love to hear from you!</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit lacus in
                 felis rutrum, rutrum consequat nulla vehicula. Fusce ut tincidunt orci, sit amet

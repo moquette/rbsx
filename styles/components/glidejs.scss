@@ -1,0 +1,53 @@
+/* --------------------------------------------------------------
+# Testimonials
+-------------------------------------------------------------- */
+.testimonials {
+  .testimonial-image img {
+    display: block;
+    float: left;
+    height: 100px;
+    margin-right: 15px;
+    width: 100px;
+    filter: grayscale(100%) brightness(80%);
+  }
+
+  .testimonial-content {
+    overflow: hidden;
+  }
+}
+
+/* --------------------------------------------------------------
+# Glide Slider
+-------------------------------------------------------------- */
+.glide__arrow {
+  border: none;
+  background-color: #000;
+  border-radius: 50%;
+  padding: 5px;
+  top: 80%;
+  transition: all 0.4s;
+
+  &:hover {
+    background-color: #808992;
+  }
+}
+.glide__arrow--left {
+  left: 15px;
+}
+.glide__arrow--right {
+  right: 15px;
+}
+
+.glide__bullets {
+  transform: translateX(0);
+  left: 0;
+  padding-left: 50%;
+  bottom: -20px;
+
+  .glide__bullet {
+    background-color: #ccc !important;
+  }
+  .glide__bullet--active {
+    background-color: #000 !important;
+  }
+}

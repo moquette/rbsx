@@ -14,9 +14,9 @@ import Container from 'react-bootstrap/Container'
 ******************************************/
 const sections = [
   { id: 'home', title: 'Home' },
-  { id: 'section1', title: 'One' },
-  { id: 'section2', title: 'Two' },
-  { id: 'section3', title: 'Three' },
+  { id: 'services', title: 'Services' },
+  { id: 'about', title: 'About' },
+  { id: 'testimonials', title: 'Testimonials' },
   { id: 'section5', title: 'Contact' },
 ]
 

@@ -112,6 +112,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@glidejs/glide@npm:^3.5.2":
+  version: 3.5.2
+  resolution: "@glidejs/glide@npm:3.5.2"
+  checksum: 07ac9e3998de48c7eca97670f2e0ce2e01ce9d33c96faec841c82a2ece54191bb3a96136513f532077e202b34dee5546dbde89febeebc6eeb89e480946547352
+  languageName: node
+  linkType: hard
+
 "@hapi/accept@npm:5.0.2":
   version: 5.0.2
   resolution: "@hapi/accept@npm:5.0.2"
@@ -4054,6 +4061,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "rbsx@workspace:."
   dependencies:
+    "@glidejs/glide": ^3.5.2
     bootstrap: ^5.1.3
     emailjs-com: ^3.2.0
     eslint: 8.6.0
@@ -4067,7 +4075,7 @@ __metadata:
     react-icons: ^4.3.1
     react-scroll: ^1.8.4
     react-swipeable: ^6.2.0
-    sass: ^1.46.0
+    sass: ^1.47.0
     serve: 13.0.2
   languageName: unknown
   linkType: soft
@@ -4425,16 +4433,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.46.0":
-  version: 1.46.0
-  resolution: "sass@npm:1.46.0"
+"sass@npm:^1.47.0":
+  version: 1.47.0
+  resolution: "sass@npm:1.47.0"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: d1f727c41ec0fcf9c54c16571bebf97ae1f1f41617796f188d9a1166bd1f1dc03ff63083bb83a4910a40635d4ecd9de9aebded34a363d2c51eed340cd17f4730
+  checksum: e725a37eb7360ad5f96e6e6209d81beeb22ecec70c6f01a1acdf237dbbb6e05e50cc0a0851b16ee1dbc63fbdd7a90405cbbd9911f56b2dba3d5f934f7e291f10
   languageName: node
   linkType: hard
 

@@ -2,7 +2,8 @@
 Bootstrap
 ******************************************/
 @import './base/bootstrap';
-
+@import '~@glidejs/glide/src/assets/sass/glide.core';
+@import '~@glidejs/glide/src/assets/sass/glide.theme';
 /******************************************
 Components
 ******************************************/
@@ -13,3 +14,13 @@ Components
 @import './components/pre-loader.scss';
 @import './components/section.scss';
 @import './components/hero.scss';
+@import './components/call-to-action.scss';
+@import './components/glidejs.scss';
+
+body {
+  magin-top: 92px;
+}
+
+h2.fs-1 {
+  font-weight: 900 !important;
+}

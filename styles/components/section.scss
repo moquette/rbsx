@@ -5,20 +5,9 @@ section {
   padding: 5rem 0;
   background-color: $white;
   &:first-of-type {
-    padding: 10rem 0;
-    h2 {
-      margin-bottom: 0.5rem;
-      &:after {
-        display: none;
-        height: 0;
-      }
-    }
     h3 {
       margin-top: 0;
     }
-  }
-  &:last-of-type {
-    min-height: calc(100vh - 92px);
   }
   h2 {
     color: $primary;

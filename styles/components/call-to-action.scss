@@ -1,0 +1,26 @@
+/* --------------------------------------------------------------
+# CALL TO ACTION
+-------------------------------------------------------------- */
+.call-to-action {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), hsla(0, 0%, 0%, 0.6)),
+    #fff url(../../images/backgrounds/bg1.jpg) no-repeat top;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  padding: 100px 0;
+  text-align: center;
+
+  .h2,
+  .call-to-action h2 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  h2::after {
+    border-bottom: none !important;
+  }
+
+  @media (max-width: 768px) {
+    background-attachment: inherit;
+    background-size: cover;
+  }
+}
