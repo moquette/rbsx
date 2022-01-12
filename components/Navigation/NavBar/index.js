@@ -16,8 +16,8 @@ const sections = [
   { id: 'home', title: 'Home' },
   { id: 'services', title: 'Services' },
   { id: 'about', title: 'About' },
-  { id: 'testimonials', title: 'Testimonials' },
   { id: 'team', title: 'Team' },
+  { id: 'testimonials', title: 'Testimonials' },
   { id: 'contact', title: 'Contact' },
 ]
 

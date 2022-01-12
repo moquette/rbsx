@@ -33,8 +33,8 @@ const App = (props) => {
           <CallToAction />
         </div>
         <About id="about" bg="light" />
-        <Testimonials id="testimonials" />
-        <Team id="team" bg="light" />
+        <Team id="team" />
+        <Testimonials id="testimonials" bg="light" />
         <ContactForm id="contact" />
       </main>
       <Footer />
