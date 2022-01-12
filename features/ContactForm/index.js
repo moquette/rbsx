@@ -1,16 +1,23 @@
 /******************************************
   Imports
 ******************************************/
+import { useEffect } from 'react'
 import { Row, Col, Form, FloatingLabel, Spinner } from 'react-bootstrap'
 import { useForm } from 'react-hook-form'
 import emailjs from 'emailjs-com'
 import Section from '../../components/Section'
-// import './styles.scss'
+import AOS from 'aos'
 
 /******************************************
   Compo nent
 ******************************************/
 const ContactForm = (props) => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+    })
+    AOS.refresh()
+  }, [])
   const { register, handleSubmit } = useForm()
   const onSubmit = (data) => {
     const serviceId = 'service_39zg13i'
@@ -51,7 +58,7 @@ const ContactForm = (props) => {
 
   return (
     <Section {...props}>
-      <Row>
+      <Row data-aos="fade-up">
         <Col>
           <h2 className="fs-1 fw-bolder text-uppercase">Contact Us</h2>
           <h3>

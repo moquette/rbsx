@@ -1,16 +1,24 @@
 /******************************************
   Imports
 ******************************************/
+import { useEffect } from 'react'
 import { Row, Col } from 'react-bootstrap'
 import Section from '../../components/Section'
+import AOS from 'aos'
 
 /******************************************
   Component
 ******************************************/
 const About = (props) => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+    })
+    AOS.refresh()
+  }, [])
   return (
     <Section {...props}>
-      <Row>
+      <Row data-aos="fade-up">
         <Col>
           <h2 className="fs-1 fw-bolder text-uppercase">About</h2>
           <h3>
