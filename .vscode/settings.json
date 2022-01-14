@@ -7,6 +7,8 @@
   "eslint.nodePath": ".yarn/sdks",
   "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
   "search.exclude": {
+    "**/.next": true,
+    "**/.out": true,
     "**/.yarn": true,
     "**/.pnp.*": true
   }
