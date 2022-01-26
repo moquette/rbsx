@@ -1,0 +1,11 @@
+/******************************************
+  Styles
+******************************************/
+#swiper {
+  position: fixed;
+  right: 0;
+  top: 95px;
+  width: 15px;
+  height: calc(100vh - 95px);
+  z-index: 10;
+}

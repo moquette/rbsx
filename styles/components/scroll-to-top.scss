@@ -1,0 +1,30 @@
+/******************************************
+  Styles
+******************************************/
+.scrollTop {
+  visibility: hidden;
+  color: $primary;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 50%;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn ease 400ms;
+  transition: opacity 400ms;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

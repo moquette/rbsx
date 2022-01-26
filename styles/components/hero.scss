@@ -1,0 +1,28 @@
+/******************************************
+  Styles
+******************************************/
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    #fff url('../../images/backgrounds/bg2.jpg') no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: calc(15%) 0 calc(15%);
+
+  h2 {
+    font-weight: 700;
+  }
+
+  h2 {
+    margin-bottom: 0.5rem;
+    &:after {
+      display: none;
+      height: 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    background-attachment: inherit;
+    background-size: cover;
+    padding: calc(20%) 0 calc(20%);
+  }
+}
