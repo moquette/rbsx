@@ -9,7 +9,7 @@ import AOS from 'aos'
 /******************************************
   Component
 ******************************************/
-const Hero = (props) => {
+export default function Hero(props) {
   useEffect(() => {
     AOS.init({
       duration: 1500,
@@ -35,5 +35,3 @@ const Hero = (props) => {
     </Section>
   )
 }
-
-export default Hero

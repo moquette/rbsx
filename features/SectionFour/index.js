@@ -8,7 +8,7 @@ import Section from 'components/Section'
 /******************************************
   Component
 ******************************************/
-const SectionFour = (props) => {
+export default function SectionFour(props) {
   return (
     <Section {...props}>
       <Row>
@@ -37,5 +37,3 @@ const SectionFour = (props) => {
     </Section>
   )
 }
-
-export default SectionFour
