@@ -1,14 +1,16 @@
+import { Link as LinkItem, animateScroll } from 'react-scroll'
+
+import Container from 'react-bootstrap/Container'
+import Nav from 'react-bootstrap/Nav'
+import NavItem from 'react-bootstrap/NavItem'
+import Navbar from 'react-bootstrap/Navbar'
+import Offcanvas from 'react-bootstrap/Offcanvas'
+import Swiper from './Swiper'
 /******************************************
   Imports
 ******************************************/
 import { useState } from 'react'
-import { Link as LinkItem, animateScroll } from 'react-scroll'
-import Swiper from './Swiper'
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
-import Offcanvas from 'react-bootstrap/Offcanvas'
-import NavItem from 'react-bootstrap/NavItem'
-import Container from 'react-bootstrap/Container'
+
 /******************************************
   Component
 ******************************************/
@@ -28,8 +30,7 @@ const NavBar = (props) => {
 
   const scrollToTop = () => {
     animateScroll.scrollToTop({
-      duration: 450,
-      smooth: 'easeOutQuart',
+      duration: 400,
     })
   }
 
@@ -83,8 +84,7 @@ const NavBar = (props) => {
                     onClick={() => handleClose()}
                     activeClass="active"
                     spy={true}
-                    smooth="easeOutQuart"
-                    duration={450}
+                    duration={400}
                     offset={-95}
                   >
                     {link.title}

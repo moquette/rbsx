@@ -1,9 +1,10 @@
 /******************************************
   Imports
 ******************************************/
-import React, { useState, useEffect } from 'react'
-import { animateScroll as Scroll } from 'react-scroll'
+import React, { useEffect, useState } from 'react'
+
 import { BsChevronCompactUp } from 'react-icons/bs'
+import { animateScroll as Scroll } from 'react-scroll'
 
 /******************************************
   Component
@@ -34,8 +35,7 @@ const ScrollToTop = () => {
 
   const scrollTop = () => {
     Scroll.scrollToTop({
-      duration: 450,
-      smooth: 'easeOutQuart',
+      duration: 400,
     })
   }
 
