@@ -4,6 +4,9 @@
 
 A wicked fast technology stack for your next website or application.
 
+![Version](https://img.shields.io/github/package-json/v/moquette/rbsx) ![Commit](https://img.shields.io/github/last-commit/moquette/rbsx)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 [Demo Page](https://moquette.github.io/rbsx)
 
 ## Clone repo:
