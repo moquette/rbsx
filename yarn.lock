@@ -933,6 +933,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"commander@npm:^6.0.0":
+  version: 6.2.1
+  resolution: "commander@npm:6.2.1"
+  checksum: d7090410c0de6bc5c67d3ca41c41760d6d268f3c799e530aafb73b7437d1826bbf0d2a3edac33f8b57cc9887b4a986dce307fa5557e109be40eadb7c43b21742
+  languageName: node
+  linkType: hard
+
 "compressible@npm:~2.0.14":
   version: 2.0.18
   resolution: "compressible@npm:2.0.18"
@@ -1789,6 +1796,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"git-branch-is@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "git-branch-is@npm:4.0.0"
+  dependencies:
+    commander: ^6.0.0
+  bin:
+    git-branch-is: bin/git-branch-is.js
+  checksum: a062e54c2a7041eebc4841e54af49157986b4280d08474da4e3a4392235ea9312e4142e0c071701b2fc644d507dca30e14aa6d41cc7ee8bcbba5acdf5acd1803
+  languageName: node
+  linkType: hard
+
 "glob-parent@npm:^5.1.2, glob-parent@npm:~5.1.2":
   version: 5.1.2
   resolution: "glob-parent@npm:5.1.2"
@@ -1989,6 +2007,15 @@ __metadata:
   dependencies:
     ms: ^2.0.0
   checksum: 9c7a74a2827f9294c009266c82031030eae811ca87b0da3dceb8d6071b9bde22c9f3daef0469c3c533cc67a97d8a167cd9fc0389350e5f415f61a79b171ded16
+  languageName: node
+  linkType: hard
+
+"husky@npm:^8.0.1":
+  version: 8.0.1
+  resolution: "husky@npm:8.0.1"
+  bin:
+    husky: lib/bin.js
+  checksum: 943a73a13d0201318fd30e83d299bb81d866bd245b69e6277804c3b462638dc1921694cb94c2b8c920a4a187060f7d6058d3365152865406352e934c5fff70dc
   languageName: node
   linkType: hard
 
@@ -2424,6 +2451,13 @@ __metadata:
   dependencies:
     yallist: ^4.0.0
   checksum: f97f499f898f23e4585742138a22f22526254fdba6d75d41a1c2526b3b6cc5747ef59c5612ba7375f42aca4f8461950e925ba08c991ead0651b4918b7c978297
+  languageName: node
+  linkType: hard
+
+"main@npm:^1000.0.1":
+  version: 1000.0.1
+  resolution: "main@npm:1000.0.1"
+  checksum: 3c86a58eb382736cb969bbd5349f75d13bf44a964ec9677e4932c2cf1bd1c49461e5aa9896338024a30af5986ca1abb92d99df2abee8234c75d9750505902330
   languageName: node
   linkType: hard
 
@@ -3125,6 +3159,9 @@ __metadata:
     emailjs-com: ^3.2.0
     eslint: 8.17.0
     eslint-config-next: 12.1.6
+    git-branch-is: ^4.0.0
+    husky: ^8.0.1
+    main: ^1000.0.1
     next: 12.1.6
     react: 18.1.0
     react-bootstrap: ^2.4.0

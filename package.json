@@ -1,6 +1,6 @@
 {
   "name": "rbsx",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "description": "A wicked fast Next.js boilerplate.",
   "homepage": "https://rbsx.moquette.us/",
   "license": "MIT",
@@ -17,12 +17,14 @@
     "export": "next export",
     "prestart": "npm run export",
     "start": "serve out",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "husky install"
   },
   "dependencies": {
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "react-scroll": "^1.8.7",
     "serve": "13.0.2"
   },
   "devDependencies": {
@@ -33,11 +35,13 @@
     "emailjs-com": "^3.2.0",
     "eslint": "8.17.0",
     "eslint-config-next": "12.1.6",
+    "git-branch-is": "^4.0.0",
+    "husky": "^8.0.1",
+    "main": "^1000.0.1",
     "react-bootstrap": "^2.4.0",
     "react-github-corner": "^2.5.0",
     "react-hook-form": "^7.31.3",
     "react-icons": "^4.4.0",
-    "react-scroll": "^1.8.7",
     "react-swipeable": "^7.0.0",
     "sass": "^1.52.2"
   },
