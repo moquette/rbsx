@@ -1,6 +1,6 @@
 {
   "name": "rbsx",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "A wicked fast Next.js boilerplate.",
   "homepage": "https://rbsx.moquette.us/",
   "license": "MIT",
@@ -40,10 +40,10 @@
     "main": "^1000.0.1",
     "react-bootstrap": "^2.4.0",
     "react-github-corner": "^2.5.0",
-    "react-hook-form": "^7.32.2",
+    "react-hook-form": "^7.33.0",
     "react-icons": "^4.4.0",
     "react-swipeable": "^7.0.0",
-    "sass": "^1.52.3"
+    "sass": "^1.53.0"
   },
   "packageManager": "yarn@3.1.1"
 }

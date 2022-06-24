@@ -3167,11 +3167,11 @@ __metadata:
     react-bootstrap: ^2.4.0
     react-dom: 18.2.0
     react-github-corner: ^2.5.0
-    react-hook-form: ^7.32.2
+    react-hook-form: ^7.33.0
     react-icons: ^4.4.0
     react-scroll: ^1.8.7
     react-swipeable: ^7.0.0
-    sass: ^1.52.3
+    sass: ^1.53.0
     serve: 13.0.2
   languageName: unknown
   linkType: soft
@@ -3238,12 +3238,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-hook-form@npm:^7.32.2":
-  version: 7.32.2
-  resolution: "react-hook-form@npm:7.32.2"
+"react-hook-form@npm:^7.33.0":
+  version: 7.33.0
+  resolution: "react-hook-form@npm:7.33.0"
   peerDependencies:
     react: ^16.8.0 || ^17 || ^18
-  checksum: abe8ba146c313d206f99a01260457bc72af03b2c73d7bd4be5af11598140ec45ef1ef37bac64b80c4dbc298d6aa21af4caa259a133f305a04ddf583faa18e7d0
+  checksum: af64d1eeb4bf46c6fc6f43529fde9eb5992319af0a85814744b14c7dd4d51b1faec8c00c71c273258b6f607f2d0155485ca528fb78c9d2d9e65abcb3274f72c1
   languageName: node
   linkType: hard
 
@@ -3514,16 +3514,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.52.3":
-  version: 1.52.3
-  resolution: "sass@npm:1.52.3"
+"sass@npm:^1.53.0":
+  version: 1.53.0
+  resolution: "sass@npm:1.53.0"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 175a073c0e7b67d1baff6d3969431228002ece681886cebc2a354c241134ff120fda5c12a0465989966dacfb1ca518d85507304f4d4cd03d4a91d71dbc77d978
+  checksum: 4bcb0617d6a4d1f2c089a1cb5c32f65a9ee874b23559f2742fab07cf8478fb74ad20c0730cf9f93915d7dbfc258901f89970674228c3ac91c3883a0a62a0ddab
   languageName: node
   linkType: hard
 
