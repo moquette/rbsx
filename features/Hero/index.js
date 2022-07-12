@@ -1,10 +1,11 @@
+import { Col, Row } from 'react-bootstrap'
+
+import AOS from 'aos'
+import Section from '../../components/Section'
 /******************************************
   Imports
 ******************************************/
 import { useEffect } from 'react'
-import { Row, Col } from 'react-bootstrap'
-import Section from '../../components/Section'
-import AOS from 'aos'
 
 /******************************************
   Component
@@ -20,7 +21,7 @@ export default function Hero(props) {
     <Section {...props} className="hero" bg="dark">
       <Row>
         <Col xs={10} xm={9} data-aos="fade-up">
-          <h2 className="display-2">{props.heading || 'RBSX'}</h2>
+          <h2 className="display-2">{props.heading || 'RBSX International'}</h2>
           <h3 className="mb-4">
             <span className="display-4">
               WICKED <span className="fw-bold">fast</span>{' '}
